@@ -1,0 +1,24 @@
+Episode -2 
+
+1) NPM - Manages packages but not stands for node , its manages every package
+2) package.json - manages all the dependencies in the project
+3) Bundler - webpack , Vite, parcel
+    2 types of dependencies -  
+    1) dev dependencies - required for development 
+    2) normal dependencies- used in production
+    " npm i -D parcel "  (to install js Bundler  -D means dev dependencies)
+    " npm install -D parcel-bundler"
+    difference b/w ^ and ~ in package.json
+    package.json vs package-lock.json ?
+    package-lock.json - its has hash which means  same package in local and prod
+4) Transitive dependencies: when we do npm i for one specific package , many packages installed , dependencies loop or tree
+5) How many package.json in project - every package in nodemodules have each package.json, it has its own and dev dependencies
+6) NPX - To executing the package. 
+   How to build app using parcel
+   npx parcel index.html(source file) - local build 
+   npm parcel build index.html        - prod build (remove "main": "app.js" from package.json)
+7) browsers list in package.json
+"browsersList":[
+    "last 2 Chrome versions",
+    "last 2 Opera versions"
+  ]

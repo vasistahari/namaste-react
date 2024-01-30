@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 /* React code to insert text in HTML */
 
 
@@ -13,10 +17,10 @@
  * 
  */
 
-/* const parent = React.createElement("div", { id: "parent" }, React.createElement("div", { id: "child" }, React.createElement("h1", {}, "Iam H1 tag")));
+const parent = React.createElement("div", { id: "parent" }, React.createElement("div", { id: "child" }, React.createElement("h1", {}, "Iam H1 tag")));
 console.log(parent);
 const root = ReactDOM.createRoot(document.getElementById("react-root"));  // used for DOM
-root.render(parent); // renders the JS object into DOM */
+root.render(parent); // renders the JS object into DOM
 
 
 
