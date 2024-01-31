@@ -22,3 +22,29 @@ Episode -2
     "last 2 Chrome versions",
     "last 2 Opera versions"
   ]
+
+
+
+Episode - 3
+
+1) JSX - JS syntax to easier to create elements
+    - not a part of react, but it make dev easy
+    - JSX is not HTML inside in JS
+    - JSX is HTML like syntax
+    - JSX code is traspiling before going to JS engine
+    - transpiling is done by Babel (converting into JS)
+    - JSX snatizes data and prevent cross siide scripting
+2) JSX is converted to react.createElement and the element is converted to reactElement object and then converted to HTML element while rendering
+    JSX => React.createElement => ReactElement(JS object) => HTMLElement(render)
+    This is all done by Babel (transpiling)
+
+3) Attributes in JSX is camelCase
+4) IF written in multiple line use it with () braces
+
+5) There are 2 types of components are in react 
+    1) Class based  (old)
+    2) Functional based (new)
+
+    2) Function Component - simple JS function (First letter is capital) which returns some JSX/react element
+       it should render like <HeadingComponent />
+       component composition - component inside component, composing 2 components in to one another 

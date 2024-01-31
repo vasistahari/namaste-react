@@ -18,3 +18,4 @@
 - Error handling
 - HTTPS
 - Tree Shaking - remove unused code for you
+- Diff build for dev and prod 
